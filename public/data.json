@@ -1,0 +1,47 @@
+{
+  "AP":{
+  "aplus" : 5.375,
+    "a" : 5,
+    "aminus" : 4.625,
+    "bplus" : 4.125,
+    "b" : 3.75,
+    "bminus" : 3.375,
+    "cplus" : 2.875,
+    "c" : 2.5,
+    "cminus" : 2.125,
+    "dplus" : 1.625,
+    "d" : 1.25,
+    "dminus" : 0.875,
+    "f" : 0
+  },
+  "Honors":{
+    "aplus" : 4.945,
+    "a" : 4.6,
+    "aminus" : 4.255,
+    "bplus" : 3.795,
+    "b" : 3.45,
+    "bminus" : 3.105,
+    "cplus" : 2.645,
+    "c" : 2.3,
+    "cminus" : 1.955,
+    "dplus" : 1.338,
+    "d" : 1.15,
+    "dminus" : 0.805,
+    "f" : 0
+  },
+  "Academic":{
+    "aplus" : 4.3,
+    "a" : 4.0,
+    "aminus" : 3.7,
+    "bplus" : 3.3,
+    "b" : 3.0,
+    "bminus" : 2.7,
+    "cplus" : 2.3,
+    "c" : 2.0,
+    "cminus" : 1.7,
+    "dplus" : 1.3,
+    "d" : 1.0,
+    "dminus" : 0.7,
+    "f" : 0
+  }
+}
