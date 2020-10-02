@@ -1,0 +1,102 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="East Brunswick GPA Calculator" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
+        <link
+      href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css"
+      rel="stylesheet"
+    />
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>EB GPA Calc</title>
+<link rel="icon" href="favicon.ico" />
+    <meta name="description" content="100% Accurate GPA Calculator specifically for EBHS" />
+    <meta name="theme-color" content="#29CD84" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#29CD84" />
+
+    <meta property="og:title" content="gpacalc.glitch.me" />
+    <meta
+      property="og:description"
+      content="100% Accurate GPA Calculator specifically for EBHS"
+    />
+    <meta property="og:url" content="https://niny.io/" />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/97e692e7-0521-4445-a767-659658b7a46b%2Fc309a8de-76b4-449f-a3c9-92b319a23386.image.png?v=1599501631247"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.com/97e692e7-0521-4445-a767-659658b7a46b%2Fc309a8de-76b4-449f-a3c9-92b319a23386.image.png?v=1599501631247"
+      type="image/x-icon"
+    />
+
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://cdn.glitch.com/97e692e7-0521-4445-a767-659658b7a46b%2Fc309a8de-76b4-449f-a3c9-92b319a23386.image.png?v=1599501631247"
+      type="image/x-icon"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/normalize.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1 id="title">
+      EB GPA Calc
+    </h1>
+    <div class="subjects" id="subjects">
+      <div class="subject">
+        <input placeholder="Subject Title" class="subjectinput" />
+        <input placeholder="Credits" class="subjectinput" />
+        <select class="selector" name="grade" id="grade">
+          <option value="aplus">A+</option>
+          <option value="a">A</option>
+          <option value="aminus">A-</option>
+          <option value="bplus">B+</option>
+          <option value="b">B</option>
+          <option value="bminus">B-</option>
+          <option value="cplus">C+</option>
+          <option value="c">C</option>
+          <option value="cminus">C-</option>
+          <option value="dplus">D+</option>
+          <option value="d">D</option>
+          <option value="dminus">D-</option>
+          <option value="f">F</option>
+        </select>
+        <select class="selector" name="level" id="level">
+          <option value="Academic">Academic</option>
+          <option value="Honors">Honors</option>
+          <option value="AP">AP</option>
+        </select>
+        <span class="close"><i class="far fa-times-circle"></i></span>
+      </div>
+    </div>
+    <br />
+    <div class="buttons">
+      <button onclick="addproject()" class="addproject">
+        <i class="fas fa-plus"></i>
+      </button>
+      <br />
+      <button onclick="submit()" class="submit">
+        Submit <i class="fas fa-plane"></i>
+      </button>
+    </div>
+  </body>
+</html>
