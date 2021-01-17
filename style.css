@@ -86,10 +86,3 @@ select::-ms-expand {
    display: none;
 }
 
-select {
-   font-size: 16px;
-   line-height: 16px;
-   background: url('https://cdn.glitch.com/97e692e7-0521-4445-a767-659658b7a46b%2Fdownload.svg?v=1599503859195') no-repeat 100% 50%;
-   -webkit-appearance: none;
-   -moz-appearance: none;
-}
