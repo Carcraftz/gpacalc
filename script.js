@@ -76,11 +76,18 @@ function submit() {
       console.log(qualityPoints);
       console.log(creditsAttempted);
     let gpa = (qualityPoints / creditsAttempted).toFixed(3)
-    Swal.fire(
+    if(!isNaN(gpa)){
+        Swal.fire(
   'Your GPA',
   'Your GPA is '+gpa+". This is based off of the EBHS Student Handbook. ",
   'success'
 )
+    }else{
+      'Error',
+  'Please make sure you filled out all fields and did not leave any blank ',
+  'error'
+    }
+
       function getGradeValue(level, grade) {
         return data[level][grade];
       }
