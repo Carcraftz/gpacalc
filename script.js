@@ -83,9 +83,9 @@ function submit() {
   'success'
 )
     }else{
-      'Error',
+     Swal.fire( 'Error',
   'Please make sure you filled out all fields and did not leave any blank ',
-  'error'
+  'error')
     }
 
       function getGradeValue(level, grade) {
